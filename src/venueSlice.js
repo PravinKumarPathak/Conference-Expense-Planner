@@ -7,7 +7,7 @@ export const venueSlice = createSlice({
     {
       img: "https://pixabay.com/images/download/chairs-2181916_640.jpg",
       name: "Conference Room (Capacity:15)",
-      cost: 3500,
+      cost: 1500,
       quantity: 0,
     },
     {
@@ -19,19 +19,19 @@ export const venueSlice = createSlice({
     {
       img: "https://pixabay.com/images/download/convention-center-3908238_640.jpg",
       name: "Presentation Room (Capacity:50)",
-      cost: 700,
+      cost: 3500,
       quantity: 0,
     },
     {
-      img: "https://pixabay.com/images/download/chairs-2181916_640.jpg",
+      img: "https://cdn.pixabay.com/photo/2021/09/26/11/43/armchairs-6657308_1280.jpg",
       name: "Large Meeting Room (Capacity:10)",
-      cost: 900,
+      cost: 1000,
       quantity: 0,
     },
     {
       img: "https://pixabay.com/images/download/laptops-593296_640.jpg",
       name: "Small Meeting Room (Capacity:5)",
-      cost: 1100,
+      cost: 800,
       quantity: 0,
     },
   
@@ -56,5 +56,4 @@ export const venueSlice = createSlice({
 });
 
 export const { incrementQuantity, decrementQuantity } = venueSlice.actions;
-
 export default venueSlice.reducer;
